@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AssetEasy</RootNamespace>
+    <AssemblyName>AssetEasy</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <ProjectGuid>{E591B5F4-FC39-4A6A-A6DE-D60524E027AB}</ProjectGuid>
+    <Use64BitIISExpress>
+    </Use64BitIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Default.html" />
+    <Content Include="Default.json" />
+    <Content Include="favicon.ico" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="AssetEasyUtilities.cs" />
+    <Compile Include="frmAssetCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssetCategories.designer.cs">
+      <DependentUpon>frmAssetCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBrandClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrandClasses.Designer.cs">
+      <DependentUpon>frmBrandClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssets.designer.cs">
+      <DependentUpon>frmAssets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBrandCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrandCategories.Designer.cs">
+      <DependentUpon>frmBrandCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomers.Designer.cs">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIssueCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIssueCategories.Designer.cs">
+      <DependentUpon>frmIssueCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLocations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLocations.Designer.cs">
+      <DependentUpon>frmLocations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssetEasyDesktop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AssetEasyDesktop.Designer.cs">
+      <DependentUpon>AssetEasyDesktop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperatorCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperatorCategories.Designer.cs">
+      <DependentUpon>frmOperatorCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOwners.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOwners.Designer.cs">
+      <DependentUpon>frmOwners.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecordCodes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecordCodes.Designer.cs">
+      <DependentUpon>frmRecordCodes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecords.Designer.cs">
+      <DependentUpon>frmRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicketEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicketEvents.Designer.cs">
+      <DependentUpon>frmTicketEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTickets.Designer.cs">
+      <DependentUpon>frmTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVAT.Designer.cs">
+      <DependentUpon>frmVAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVendorCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendorCategories.Designer.cs">
+      <DependentUpon>frmVendorCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVendors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendors.Designer.cs">
+      <DependentUpon>frmVendors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Themes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AssetEasyDesktop.resx">
+      <DependentUpon>AssetEasyDesktop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssetCategories.resx">
+      <DependentUpon>frmAssetCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrandClasses.resx">
+      <DependentUpon>frmBrandClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssets.resx">
+      <DependentUpon>frmAssets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrandCategories.resx">
+      <DependentUpon>frmBrandCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomers.resx">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIssueCategories.resx">
+      <DependentUpon>frmIssueCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocations.resx">
+      <DependentUpon>frmLocations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperatorCategories.resx">
+      <DependentUpon>frmOperatorCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOwners.resx">
+      <DependentUpon>frmOwners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecordCodes.resx">
+      <DependentUpon>frmRecordCodes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecords.resx">
+      <DependentUpon>frmRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicketEvents.resx">
+      <DependentUpon>frmTicketEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTickets.resx">
+      <DependentUpon>frmTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVAT.it.resx">
+      <DependentUpon>frmVAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVAT.resx">
+      <DependentUpon>frmVAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVendorCategories.resx">
+      <DependentUpon>frmVendorCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVendors.resx">
+      <DependentUpon>frmVendors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssetEasyDataModel\AssetEasyDataModel.csproj">
+      <Project>{248f7c50-e8c9-4667-81d7-2bcdba1cea15}</Project>
+      <Name>AssetEasyDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\DEV\BasicDALWisejControls30\BasicDALWisejControls30.vbproj">
+      <Project>{8ea87f54-c622-4179-8ae8-8089fe333828}</Project>
+      <Name>BasicDALWisejControls30</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\DEV\BasicDAL\BasicDAL.csproj">
+      <Project>{57d42120-5e60-0cf6-0edf-c08258322b54}</Project>
+      <Name>BasicDAL</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Wisej-3">
+      <Version>3.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="Wisej-3-AceEditor">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Wisej-3-Barcode">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Wisej-3-BootstrapIcons">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Wisej-3-Camera">
+      <Version>3.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="Wisej-3-CKEditor">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Wisej-3-TinyEditor">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Wisej-3-TinyMCE">
+      <Version>3.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59732</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59732/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
