@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj": {}
+  },
+  "projects": {
+    "C:\\DEV\\BasicDAL\\BasicDAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\DEV\\BasicDAL\\BasicDAL.csproj",
+        "projectName": "BasicDAL",
+        "projectPath": "C:\\DEV\\BasicDAL\\BasicDAL.csproj",
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    },
+    "D:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj",
+        "projectName": "AssetEasyDataModel",
+        "projectPath": "D:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj",
+        "packagesPath": "C:\\Users\\UTENTE\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\AssetEasy\\AssetEasyDataModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\UTENTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Wisej-2.5.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Wisej-3.0.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\IceTeaGroup\\Wisej 2.5\\nuget\\": {},
+          "C:\\Program Files\\IceTeaGroup\\Wisej 3.0\\nuget\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\DEV\\BasicDAL\\BasicDAL.csproj": {
+                "projectPath": "C:\\DEV\\BasicDAL\\BasicDAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
