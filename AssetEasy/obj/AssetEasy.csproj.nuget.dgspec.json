@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\AssetEasy\\AssetEasy\\AssetEasy.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj",
+        "projectName": "AssetEasyDataModel",
+        "projectPath": "C:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\DEV\\BasicDAL\\BasicDAL.csproj": {
+                "projectPath": "C:\\DEV\\BasicDAL\\BasicDAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Dev\\AssetEasy\\AssetEasy\\AssetEasy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\AssetEasy\\AssetEasy\\AssetEasy.csproj",
+        "projectName": "AssetEasy",
+        "projectPath": "C:\\Dev\\AssetEasy\\AssetEasy\\AssetEasy.csproj",
+        "packagesPath": "C:\\Users\\Gabriele\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\AssetEasy\\AssetEasy\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Gabriele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj": {
+                "projectPath": "C:\\Dev\\AssetEasy\\AssetEasyDataModel\\AssetEasyDataModel.csproj"
+              },
+              "C:\\DEV\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj": {
+                "projectPath": "C:\\DEV\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj"
+              },
+              "C:\\DEV\\BasicDAL\\BasicDAL.csproj": {
+                "projectPath": "C:\\DEV\\BasicDAL\\BasicDAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Wisej-3": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Wisej-3-AceEditor": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Wisej-3-Barcode": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Wisej-3-BootstrapIcons": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Wisej-3-CKEditor": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Wisej-3-Camera": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Wisej-3-TinyEditor": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Wisej-3-TinyMCE": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\DEV\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DEV\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj",
+        "projectName": "BasicDALWisejControls",
+        "projectPath": "C:\\DEV\\BasicDALWisejControls30\\BasicDALWisejControls30.vbproj",
+        "packagesPath": "C:\\Users\\Gabriele\\.nuget\\packages\\",
+        "outputPath": "C:\\DEV\\BasicDALWisejControls30\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Gabriele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\DEV\\BasicDAL\\BasicDAL.csproj": {
+                "projectPath": "C:\\DEV\\BasicDAL\\BasicDAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Wisej-3": {
+              "target": "Package",
+              "version": "[3.0.12, )"
+            },
+            "Wisej-3-Camera": {
+              "target": "Package",
+              "version": "[3.0.3-dev, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\DEV\\BasicDAL\\BasicDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DEV\\BasicDAL\\BasicDAL.csproj",
+        "projectName": "BasicDAL",
+        "projectPath": "C:\\DEV\\BasicDAL\\BasicDAL.csproj",
+        "packagesPath": "C:\\Users\\Gabriele\\.nuget\\packages\\",
+        "outputPath": "C:\\DEV\\BasicDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Gabriele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[19.14.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
